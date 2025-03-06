@@ -6,6 +6,7 @@ background-image: url("thevr-ai-hang.jpg");
 background-attachment: fixed;
 background-repeat: repeat-y;
 background-size: 25%;
+font-family: 'Courier New', Courier, monospace;
 
 
 
@@ -15,7 +16,7 @@ h1
 {
     margin-left: 25%;
     margin-right: 25%;
-    width: 75%;   
+    width: 75%;    
 }
 h2
 {
@@ -44,4 +45,16 @@ width: 50%;
 border-color: blue;
 border-width: 10px;
 border-style: solid;
+box-sizing: border-box;
+}
+.user-card
+{
+background-color:brown;
+width: 180 px;
+height: 180 px;
+display: inline-block;
+}
+.user-card.active
+{
+background-color: salmon
 }
